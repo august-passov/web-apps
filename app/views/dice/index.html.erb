@@ -1,0 +1,26 @@
+<h1>Dice Game</h1>
+
+<p>
+Die 1 score = <%die1 = rand(1..6)%>
+<%=die1%>
+</p>
+
+<p> 
+Die 2 score = <%die2 = rand(1..6)%>
+<%=die2%>
+</p>
+
+<p>
+<%total = die1 + die2%>
+<%="the total is #{total}"%>
+</p>
+
+<p>
+<img src="/images/dice/<%= die1%>.svg">
+<img src="/images/dice/<%= die2%>.svg">
+<!-- <img src="/images/dice/6.svg"> -->
+</p>
+
+<a href="/dice">Roll again!</a>
+
+

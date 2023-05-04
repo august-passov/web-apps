@@ -1,0 +1,14 @@
+<h1>Jim is hungry</h1>
+<p>How hungry is Jim?</p>
+
+<%jim_hunger = ["defcon 5", "rumble tum tum", "he just whiny"]%>
+
+<p>Jim has <%= jim_hunger.count%> states of hunger</p>
+
+<!-- this is a comment -->
+
+<ul>
+  <% for hunger_state in jim_hunger %>
+  <li><%= jim_hunger %> </li>
+  <% end %>
+</ul>
